@@ -61,8 +61,8 @@ variable "private-subnet-for-themis" {
 
 #DNS
 variable "zone_id" {
-  description = "la zone cloud.iviflo.com"
-  default     = "Z025828013G1XMKGY1L5E"
+  description = "la zone "
+  default     = ""
   type        = string
 }
 variable "dns_private_zone" {

@@ -42,7 +42,7 @@ data "aws_iam_policy_document" "main" {
   statement {
     principals {
       type        = "AWS"
-      identifiers = ["300602097683"]
+      identifiers = [""] #add account id
     }
 
     actions = [
